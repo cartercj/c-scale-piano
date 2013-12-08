@@ -2,7 +2,6 @@
 
 = Task =
 
-To create a playable c-scale piano through the John Loomis audio output module with the help of Aaron Pittenger's and Rachel Grady's project "DE2 Analog Audio Output with Square Wave Generation."
+To create a playable c-scale piano through the John Loomis Audio 2 module [http://www.johnloomis.org/digitallab/audio/audio2/audio2.qdoc.html (Source Code)] with the help of Aaron Pittenger's and Rachel Grady's project "DE2 Analog Audio Output with Square Wave Generation." [http://www.users.muohio.edu/jamiespa/teaching/ECE_287/FALL_2010/Aaron_and_Rachel-December_18_2010/8cf04a9734132302f96da8e113e80ce5.html (Project Home)]
 
 = Results =
-
