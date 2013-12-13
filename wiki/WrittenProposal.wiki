@@ -4,6 +4,10 @@
 
 The goal of this project is to create a multi-key input playable c-scale piano mapped to the QWERTYUI keys of a standard PS/2 keyboard.  An Altera Cyclone II DE2 board will serve as the hardware control for the keyboard inputs and speaker output.  Control switches will give the user the ability to change the key of the scale.
 
+= Background = 
+
+Audio is generally created today with a mix of hardware and software.  This project eliminates the need for software, implementing a playable piano, simulated song audio, and Learn-To-Play mode into a single hardware design.
+
 
 = Written Proposal =
 
@@ -17,8 +21,12 @@ After successfully creating a c-scale piano, we plan to create switches which wi
 
 *Week 3:* Research how to map specific audio frequencies to the 3.5mm output, including chords.
 
-*Week 4:* Create code to drive output to speakers and implement switches to change the key signature of the scale.
+*Week 4:* Create code to drive output to speakers and implement switches to change the key signature of the scale. *_AMENDED_*
 
 *Week 5:* Finalize and present.
 
-*Additional Time:* Any additional time we have due to potentially being ahead of schedule will be used to map output to a monitor displaying the name of the note being played in "Pitch Pipe" mode.
+*Additional Time:* Any additional time we have due to potentially being ahead of schedule will be used to map output to a monitor displaying the name of the note being played in "Pitch Pipe" mode. *_AMENDED_*
+
+= Amendments = 
+
+After beginning the project, it was decided that a Learn-To-Play mode would be implemented in lieu of the multiple scales.  Additionally, the scrolling note register in the Learn-To-Play mode took the place of the VGA output for "Pitch Pipe" mode.
