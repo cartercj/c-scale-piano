@@ -1,4 +1,4 @@
-#summary 3.) PS/2 Controller --> Data In module manipulation
+#summary 3.) PS2_ Controller --> Data In module manipulation
 
 =Task =
 
