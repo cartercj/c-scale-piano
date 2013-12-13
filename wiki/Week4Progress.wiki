@@ -2,12 +2,7 @@
 
 = Task =
 
-Add your content here.
+With a functioning C-Scale piano, we have determined that adding more scales is not incredibly complex, and have thus elected to add songs with a teachable note register, simulated harmony, and simulated melody.
 
 
 = Results =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
