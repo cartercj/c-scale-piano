@@ -1,4 +1,4 @@
-#summary PS/2 Controller Analysis.
+#summary 2.) PS/2 Controller Analysis.
 
 = Task =
 
