@@ -1,4 +1,4 @@
-#summary 6.) Additional songs and scrolling note register for teaching.
+#summary 6.) Additional songs and scrolling note register for Learn-To-Play mode.
 
 = Task =
 
