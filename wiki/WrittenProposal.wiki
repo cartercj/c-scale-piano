@@ -1,4 +1,4 @@
-#summary 1.) A written proposal outlining the goals and plan for the project.
+#summary 1.) A written proposal outlining the goals and plan for   the project.
 
 = Introduction =
 
