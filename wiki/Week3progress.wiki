@@ -1,4 +1,4 @@
-#summary Audio Output through the John Loomis module
+#summary 4.) Audio Output through the John Loomis module
 
 = Task =
 
