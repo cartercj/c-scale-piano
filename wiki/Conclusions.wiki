@@ -6,6 +6,8 @@ The final design of our project implements an *I2C* module (John Loomis) which c
 
 The project does not use multiple key signatures, as was originally intended, but the code written creates an easy blueprint for someone to extend this feature.  Songs are selected and driven be the aforementioned switches with a universal reset.
 
+_Please note that all code for this project can be found under Source -> Browse 
+
 = Contributors =
 
 While we have logged over 50 hours in the completion of this project, we would not have been able to accomplish our goals with out help from the following sources:
