@@ -2,7 +2,7 @@
 
 =Task =
 
-After successfully mapping the key signals from the *PS2_Controller* module to different output signals on the DE2 board, the next task manipulating the internal Data In module state machine to only generate the signal for as long as (or roughly as long as) the key is pressed.
+After successfully mapping the key signals from the *PS2_Controller* module to different output signals on the DE2 board, the next task is manipulating the internal Data In module state machine to only generate the signal for as long as (or roughly as long as) the key is pressed.
 
 
 
