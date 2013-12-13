@@ -1,4 +1,4 @@
-#summary 2.) *PS2_Controller* Analysis.
+#summary 2.) PS2_Controller Analysis.
 
 = Task =
 
