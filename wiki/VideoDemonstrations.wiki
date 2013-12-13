@@ -1,4 +1,4 @@
-#summary Demonstrations of the project as a whole as well as the three songs which are playable.
+#summary Demonstrations of the project as a whole as well as the three songs which are pre-loaded.
 
 = Links =
 
