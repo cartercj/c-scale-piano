@@ -1,0 +1,11 @@
+# Task #
+
+To create a playable c-scale piano through the John Loomis **audio2** module [(Source Code)](http://www.johnloomis.org/digitallab/audio/audio2/audio2.qdoc.html) with the help of Aaron Pittenger's and Rachel Grady's project "DE2 Analog Audio Output with Square Wave Generation." [(Project Home)](http://www.users.muohio.edu/jamiespa/teaching/ECE_287/FALL_2010/Aaron_and_Rachel-December_18_2010/8cf04a9734132302f96da8e113e80ce5.html)
+
+# Results #
+
+After determining how the keyboard input was mapped, our next task was to generate audio through the module.  To do this, we turned to a previous project created by Aaron Pittenger and Rachel Grady, which generated a three octave range of square waves four output through John Loomis's **audio2** module.  We determined that our project could make use of the **notegen** module to create the tones necessary for our piano.  The **notegen** module creates square waves by using the 50 MHz clk with a counter to generate a frequency pattern for each of the specified frequencies.  This is controlled with an ON/OFF parameter which "turns the wave on" when the desired frequency is reached by the specified counter.
+
+The tones which we needed for our C-Scale piano came from the middle range of the **notegen** module (c2, d2, e2, f2, g2, a2, b2, c3) with sharps and flats in between the appropriate notes. These tones were then assigned to a specific key input using a pseudo-state machine in the **c\_scale** module. The end result is that when a user presses the desired key, then tone is generated for the duration of the key being held plus a minor delay to mimic the echo of a live piano.
+
+Our original intent with the piano had been to make it possible to play chords with multiple keys pressed down.  However, we realized that the state machine necessary to produce this kind of sound output was incredibly complex, as there are 66 possibilities for 2 note chords, and 220 for three note chords alone in a single octave. As such, we decided to simply generate a series of chordal demonstrations on the A (Major Second), S (Minor Third), D (Fourth), F (Perfect Fifth), G (Minor Sixth), H (Octave) keys. This was accomplished by sending one tone through the left speaker and one through the right when the key is pressed.

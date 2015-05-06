@@ -1,0 +1,1 @@
+An Altera Cyclone II DE2 board will be used to map the QWERTYUI keys of a PS/2 keyboard to specific audio frequencies, which will then be outputted to a speaker for play. The goal is to be able to play both singular notes and chords on the keyboard. Expansion about the c-scale is a possibility based on time restrictions.
